@@ -127,7 +127,7 @@ body {
   margin: 55px 0px 0px 0px;
 }
 
-::highlight(first-highlight) {
+::highlight(search-results) {
   background-color: yellow;
   color: rgba(0, 0, 0, 0.7);
 }/*# sourceMappingURL=style.css.map */
