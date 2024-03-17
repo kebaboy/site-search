@@ -107,6 +107,14 @@ body {
   padding: 3px;
   border: 2px solid #595757;
 }
+.search__results-count {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  display: none;
+}
+.search .display {
+  display: block;
+}
 
 .section {
   padding: 10px 10px 10px 10px;
@@ -117,6 +125,10 @@ body {
 }
 .section__text {
   line-height: 17px;
+  margin: 0px 0px 10px 0px;
+}
+.section__text:last-child {
+  margin: 0px 0px 0px 0px;
 }
 .section__container {
   background-color: rgba(0, 0, 0, 0.5);
